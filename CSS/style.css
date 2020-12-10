@@ -1,0 +1,162 @@
+body{
+    margin: auto 0px auto 0px;
+}
+/*/////////////////////////// Barra de redes sociais ////////////////////////////////////*/
+.barra-principal{
+    background-color: rgb(24, 24, 24);
+    padding: 1px;
+}
+.barra-sociais{ 
+    text-align: right;
+}
+.barra-sociais ul li{
+    list-style: none;
+    display: inline-block;
+}
+.logo{
+    float: left;
+}
+.social-01 a img{
+    width: 25px;
+    height: 25px;
+    padding-right: 10px;
+    padding-bottom: 3px;
+    float: right;
+}
+.social-02 a img{
+    width: 25px;
+    height: 25px;
+    padding-right: 10px;
+    padding-bottom: 3px;
+    float: right;
+}
+
+.social-03 a img{
+    width: 25px;
+    height: 25px;
+    padding-right: 10px;
+    padding-bottom: 3px;
+    float: right;
+}
+
+.social-04 a img{
+    width: 25px;
+    height: 25px;
+    padding-right: 10px;
+    padding-bottom: 3px;
+    float: right;
+}
+/*/////////////////////////// Barra do menu ////////////////////////////////////*/
+.barra-nav{
+    text-align: center;
+}
+.barra-nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+.barra-nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding-right: 60px;
+    font: normal 14pt Arial;
+}
+.barra-nav ul li a:hover{
+    color:gray;
+    transition: .5s;
+}
+.menu{
+    background-image: url(../Imagens/imagem_ref_05.jpg);
+    width: auto;
+    height: 1000px;
+    padding-top: 1px;
+}
+.busca {
+    text-align: center;
+}
+.busca input {
+    background-image: url(../Imagens/icone-search.png);
+    background-repeat: no-repeat;
+    height: 10px;
+    padding: 12px;
+    width: 190px;
+    margin-top: 10px;
+    background-position: 96%;
+    border: 1px solid rgb(1, 98, 136);
+}
+/*/////////////////////////// divisão do menu ////////////////////////////////////*/
+.div-01{
+    margin-top: 500px;
+    margin-left: 100px;
+    height: auto;
+    width: 900px;
+
+}
+.titulo-01{
+    font: normal 45pt Arial;
+    color: whitesmoke;
+}
+.titulo-01 strong{
+    font: normal 48pt Arial;
+    color:wheat;
+}
+.paragrafo-01{
+    font: normal 24pt Arial;
+    color: rgba(124, 124, 124, 0.726);
+}
+.paragrafo-01:hover{
+    color: rgb(151, 151, 151);
+}
+/*/////////////////////////// blog ////////////////////////////////////*/
+.div-02{
+    grid-column: auto;
+    height: 1000px;
+    width: auto;
+    text-align: center;
+}
+.div-02 ul li{
+    list-style: none;
+}
+.button-li{
+    margin-left: 700px;
+    margin-top: -140px;
+}
+.button-01 strong{
+    color: wheat;
+}
+.button-01{
+    border-radius: 15px;
+    border-color: rgb(3, 0, 39);
+    background-color: rgb(0, 0, 0, .3);
+    color: whitesmoke;
+    font: normal 18pt Arial;
+    width: 300px;
+    height: 50px;
+}
+.button-01:hover{
+    background-color: rgb(2, 2, 114, .5);
+    color: white;
+}
+.img-01{
+    border-radius: 12px;
+    margin-left: 700px;
+}
+.titulo-02{
+    font: normal 36pt Fantasy;
+    color: gray;
+    margin-left: -600px;
+    margin-top: -400px;
+}
+.titulo-02 strong{
+    color: blanchedalmond;
+    font-family: inherit;
+    font-style: normal;
+}
+.paragrafo-02{
+    font: normal 18pt Arial;
+    color: rgb(58, 58, 58);
+    width: 600px;
+    margin-left: 350px;
+    text-align: left;
+    text-shadow: black;
+    font-family: sans-serif;
+}

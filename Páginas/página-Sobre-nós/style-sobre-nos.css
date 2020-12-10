@@ -1,0 +1,48 @@
+body{
+    margin: auto 0px auto 0px;
+}
+/*/////////////////////////// Barra de redes sociais ////////////////////////////////////*/
+.barra-principal{
+    background-color: rgb(24, 24, 24);
+    padding: 1px;
+}
+.barra-sociais{ 
+    text-align: right;
+}
+.barra-sociais ul li{
+    list-style: none;
+    display: inline-block;
+}
+.logo{
+    float: left;
+}
+.social-01 a img{
+    width: 25px;
+    height: 25px;
+    padding-right: 10px;
+    padding-bottom: 3px;
+    float: right;
+}
+.social-02 a img{
+    width: 25px;
+    height: 25px;
+    padding-right: 10px;
+    padding-bottom: 3px;
+    float: right;
+}
+
+.social-03 a img{
+    width: 25px;
+    height: 25px;
+    padding-right: 10px;
+    padding-bottom: 3px;
+    float: right;
+}
+
+.social-04 a img{
+    width: 25px;
+    height: 25px;
+    padding-right: 10px;
+    padding-bottom: 3px;
+    float: right;
+}
